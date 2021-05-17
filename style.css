@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', sans-serif;
+    line-height: 2.0;
+}
+h1,h2{
+    font-weight: 600;
+}
+p{
+    font-weight: 300;
+}
+/* header */
+.header-wrapper{
+    background: linear-gradient(to right, #ff856e 0%, #ff585f 100%);
+    color: white;
+    border-bottom-left-radius: 60px;
+}
+.banner{
+    position: relative;
+}
+.banner img{
+    height: 700px;
+}
+.banner .content-div{
+    position: absolute;
+    background: transparent;
+}
+
+/* navbar */
+.navbar{
+    padding: 20px;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.navbar ul li{
+    padding-right: 20px;
+
+}
+
+.navbar-dark{
+    background: transparent;
+    color:white;
+}
+.navbar .navbar-brand{
+    font-weight: bolder;
+}
+.btn{
+    color: #ff856e;
+    border: none;
+    background: white;
+    border-radius: 50px;
+}
+.btn:hover{
+    color: white;
+    background: transparent;
+}
+
+/* main */
+.designed-for-the-future-wrapper h1{
+    color: hsl(208, 49%, 24%);
+}
+.heading-and-para{
+    padding: 0 60px 0 80px;
+    font-size: 16px;
+    color: hsl(207, 13%, 34%);
+}
+.heading-and-para h2{
+    color: hsl(208, 49%, 24%);
+    font-size: 30px;
+}
+
+.state-of-the-art-wrapper{
+    background: linear-gradient(to right, #2c2d3f 0%, #3f4164 100%);
+    color: white;
+    height: 345px;
+    font-size: 16px;
+    border-bottom-left-radius: 35px;
+    border-top-right-radius:35px;
+}
+
+/* Footer */
+.section-footer{
+    background: hsl(240, 10%, 16%);
+    border-top-right-radius: 35px;
+}
+.footer-wrapper{
+    padding: 30px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.footer-wrapper a{
+    color: hsl(240, 2%, 79%);
+    text-decoration: none;
+
+}
+.footer-wrapper a:hover{
+    color: hsl(240, 2%, 79%);
+    text-decoration: underline;
+
+}
+
+#BrandName{
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
